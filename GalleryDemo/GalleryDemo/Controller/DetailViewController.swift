@@ -30,7 +30,10 @@ class DetailViewController: UIViewController {
         
         img = UIImageView()
         
-        img.sd_setImage(with: URL(string: viewModel.photo!.downloadUrl), placeholderImage: img.image,options: .progressiveLoad)
+//        img.sd_setImage(with: URL(string: viewModel.photo!.thumbnailUrl))
+        
+        img.sd_setImage(with: URL(string: viewModel.photo!.downloadUrl))
+        
         
         shareView.addImage(img: img, width: viewModel.photo!.downloadWidth, hight: viewModel.photo!.downloadHeight)
         
