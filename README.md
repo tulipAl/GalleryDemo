@@ -1,5 +1,9 @@
 # GalleryDemo Mobile App Document
 
+## Screenshot
+
+<img src="https://user-images.githubusercontent.com/44119669/125179883-0f288080-e1a8-11eb-960c-304eb1581bf0.png" width="200" height="400"><img src="https://user-images.githubusercontent.com/44119669/125179885-12237100-e1a8-11eb-8f2a-d0089d0e854d.png" width="200" height="400">
+
 ## Background 
 
 
