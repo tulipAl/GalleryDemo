@@ -41,6 +41,7 @@ class PhotoList{
 //                    }
                     
                     self.photos = try JSONDecoder().decode([Photo].self, from: data)
+                    
                     NotificationCenter.default.post(name: PhotoList.changeNotification, object: nil)
                     
                 }catch{

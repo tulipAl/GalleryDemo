@@ -30,9 +30,9 @@ class DetailViewController: UIViewController {
         
         img = UIImageView()
         
-//        img.sd_setImage(with: URL(string: viewModel.photo!.thumbnailUrl))
+        img.sd_setImage(with: URL(string: viewModel.photo!.thumbnailUrl))
         
-        img.sd_setImage(with: URL(string: viewModel.photo!.downloadUrl))
+        img.sd_setImage(with: URL(string: viewModel.photo!.download_url), placeholderImage: img.image)
         
         
         shareView.addImage(img: img, width: viewModel.photo!.downloadWidth, hight: viewModel.photo!.downloadHeight)

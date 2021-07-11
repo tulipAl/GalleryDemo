@@ -26,7 +26,7 @@ class DetailRootView: UIView {
         imageHight = hight
         
         img.contentMode = .scaleAspectFit
-        img.layer.cornerRadius =  30
+        img.layer.cornerRadius =  CGFloat(kScreenWidth) / ((kScreenWidth-56)/2) * 15
         img.layer.masksToBounds = true
         addSubview(img)
         

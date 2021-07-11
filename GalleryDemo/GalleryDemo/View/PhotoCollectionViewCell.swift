@@ -39,7 +39,7 @@ class PhotoCollectionViewCell: UICollectionViewCell {
     
     func config(photo:Photo){
         
-        img.sd_setImage(with: URL(string: photo.downloadUrl) , placeholderImage: UIImage(named: "placeholder.jpg"), options: .continueInBackground) { [weak self] image, error, cache, url in
+        img.sd_setImage(with: URL(string: photo.thumbnailUrl) , placeholderImage: UIImage(named: "placeholder.jpg"), options: .continueInBackground) { [weak self] image, error, cache, url in
             
             DispatchQueue.main.async {
                 self?.img.image = image?.roundedImage
