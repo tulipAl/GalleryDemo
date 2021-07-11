@@ -83,7 +83,7 @@ Asynchronous image downloader with cache support as a UIImageView category
 ## Lorem Ipsum API
 
 
-Get a list of images. https://picsum.photos/v2/list 
+Get a list of images. https://picsum.photos/v2/list. 
 The API will return 30 items per page by default.
 One Item response format:
 
@@ -103,7 +103,7 @@ Also, this API allows page and limit parameter to request more data. I consider 
 
 ## Timeline 
 
-Development	7.8-7.10<img width="485" alt="image" src="https://user-images.githubusercontent.com/44119669/125179838-5c582280-e1a7-11eb-98c0-36d83ae72878.png">
+<img width="485" alt="image" src="https://user-images.githubusercontent.com/44119669/125179838-5c582280-e1a7-11eb-98c0-36d83ae72878.png">
 
 
 ## Reference 
