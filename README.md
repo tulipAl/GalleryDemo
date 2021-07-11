@@ -56,13 +56,7 @@ High Level Diagram:
 
 
 
-
-
-
-
-
-
-
+![image](https://user-images.githubusercontent.com/44119669/125179831-36328280-e1a7-11eb-9359-e026f385a8c5.png)
 
 
 
@@ -109,6 +103,7 @@ Also, this API allows page and limit parameter to request more data. I consider 
 
 ## Timeline 
 
+Development	7.8-7.10<img width="485" alt="image" src="https://user-images.githubusercontent.com/44119669/125179838-5c582280-e1a7-11eb-98c0-36d83ae72878.png">
 
 
 ## Reference 
