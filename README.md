@@ -114,5 +114,6 @@ https://picsum.photos
 
 ## Improvement 
 
-I don't have any exprience with Combine but I use RXSwift before. The logic behind them is actully the same. For this project, I still use the notification and KVO to apply MVVM.
+1. I don't have any exprience with Combine but I use RXSwift before. The logic behind them is actully the same. For this project, I still use the notification and KVO to apply MVVM.
+2. Not handle device rotation. Will improve it in the future.
 
