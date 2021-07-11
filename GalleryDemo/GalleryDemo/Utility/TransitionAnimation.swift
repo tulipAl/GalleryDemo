@@ -146,7 +146,7 @@ extension UIImage{
         UIGraphicsBeginImageContextWithOptions(self.size, false, 1)
         UIBezierPath(
             roundedRect: rect,
-            cornerRadius: 15
+            cornerRadius: 30
         ).addClip()
         self.draw(in: rect)
         return UIGraphicsGetImageFromCurrentImageContext()!
