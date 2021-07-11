@@ -31,7 +31,8 @@ The objective is to create a “Gallery Demo” - iOS mobile native application 
 6. FMBD to do SQLite database on iOS for caching ( Not necessary, If I have more time, I will do this). 
 7. GCD to handle multithreading solutions. Only put the tasks of updating UI into main thread.
 8. Use UIViewControllerAnimatedTransitioning to handle the transition animation.
- 
+9. For the UI/UX part, I learned a lot from Pinterest.
+10. I first download the thumbnail size image for CollectionView. When user tap into detail page, I will start download the regular size image. This will make the main page faster and the logic works good. Another logic is direcly download the regular size at the main page, this wll slow the speed of main page, but will speed up the detail page. It is all about the trade off.
 ## App Size
 
 
@@ -109,3 +110,8 @@ Also, this API allows page and limit parameter to request more data. I consider 
 
 
 https://picsum.photos
+
+## Improvement 
+
+I don't have any exprience with Combine but I use RXSwift before. The logic behind them is actully the same. For this project, I still use the notification and KVO to apply MVVM.
+
