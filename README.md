@@ -32,8 +32,8 @@ The objective is to create a “Gallery Demo” - iOS mobile native application 
 7. GCD to handle multithreading solutions. Only put the tasks of updating UI into main thread.
 8. Use UIViewControllerAnimatedTransitioning to handle the transition animation.
 9. For the UI/UX part, I learned a lot from Pinterest.
-10. I first download the thumbnail size image for CollectionView. When user tap into detail page, I will start download the regular size image. This will make the main page faster and the logic works good. Another logic is direcly download the regular size at the main page, this wll slow the speed of main page, but will speed up the detail page. It is all about the trade off.
-11. Programmatic UI
+10. I first download the thumbnail size image for CollectionView. When user tap into detail page, I will start download the regular size image. This will make the main page faster and the logic works good. Another logic is direcly download the regular size at the main page, this wll slow the speed of main page, but will speed up the detail page. It is all about the trade off. Update on 7.10.2021: Change to second logic for better user experience.
+12. Programmatic UI
 ## App Size
 
 
