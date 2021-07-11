@@ -58,13 +58,7 @@ I will choose MVVM to do this project.
 
 High Level Diagram:
 
-
-
-![image](https://user-images.githubusercontent.com/44119669/125179831-36328280-e1a7-11eb-9359-e026f385a8c5.png)
-
-
-
-
+<img src="https://user-images.githubusercontent.com/44119669/125179831-36328280-e1a7-11eb-9359-e026f385a8c5.png" width="600" height="400">
 
 ## Third Party Framework
 
@@ -107,7 +101,8 @@ Also, this API allows page and limit parameter to request more data. I consider 
 
 ## Timeline 
 
-<img width="485" alt="image" src="https://user-images.githubusercontent.com/44119669/125179838-5c582280-e1a7-11eb-98c0-36d83ae72878.png">
+<!-- <img width="485" alt="image" src="https://user-images.githubusercontent.com/44119669/125179838-5c582280-e1a7-11eb-98c0-36d83ae72878.png"> -->
+<img src="https://user-images.githubusercontent.com/44119669/125179838-5c582280-e1a7-11eb-98c0-36d83ae72878.png" width="800" height="150">
 
 
 ## Reference 
