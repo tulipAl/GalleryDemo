@@ -19,6 +19,8 @@ class DetailInfoView: UIView {
     
     func config(author:String, url:String){
         
+        backgroundColor = .white
+        
         let titleLB = UILabel()
         titleLB.textColor = .black
         titleLB.text = "Author: " + author
