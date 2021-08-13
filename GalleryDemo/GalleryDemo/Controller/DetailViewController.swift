@@ -28,6 +28,8 @@ class DetailViewController: UIViewController {
         // Do any additional setup after loading the view.
         
         
+        //This is a git commit test
+        
         img = UIImageView()
         
         img.sd_setImage(with: URL(string: viewModel.photo!.downloadUrl))
